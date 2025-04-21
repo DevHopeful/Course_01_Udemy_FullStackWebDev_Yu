@@ -1,0 +1,79 @@
+*****************************************************************************************
+Section 1, Lecture 6: How Do Websites Actually Work?
+*****************************************************************************************
+
+Web pages consist of 3 types of files:
+    1. HTML (Hypertext Markup Language) files
+        - Contains the website's CONTENT
+    2. CSS (Cascading File Sheets) files
+        - STYLES the website, determines how it will look
+    3. JS (JavaScript) files
+        - Gives the website FUNCTIONALITY
+
+The web browser is software that "specializes" in processing the 3 types of web page files
+
+
+*****************************************************************************************
+Section 2, Lecture 11: What is HTML?
+*****************************************************************************************
+
+HTML defines the content and structure of a website
+
+A website cannot contain CSS or JS alone, BUT it can contain HTML only.
+
+Hypertext = the LINKS to other pages or information
+
+Markup Language = the "tags" that format the text
+
+HTML uses HTML "TAGS" to "markup" the text  
+    - Examples: Heading tags, paragraph tags, list tags, etc.
+
+*****************************************************************************************
+Section 2, Lecture 13: HTML Heading Elements
+*****************************************************************************************
+
+HTML consists of "ELEMENTS" and "TAGS"
+
+<h1>Some Great Text </h1>
+    Everything inside the < > are "TAGS"
+    The tag at the beginning of the text is the "opening" tag
+    The tag after the text (notice the / ) is a "closing" tag
+
+    The WHOLE Statement, including both tags, is an "ELEMENT"
+
+The HTML "heading" tag only goes through level 6 (eg, h1, h2, h3, h4, h5, h6)
+    - There is no h7 or greater (which is actually smaller...)
+
+*****************************************************************************************
+Section 2, Lecture 14: Paragraph Tag
+*****************************************************************************************
+
+HTML ignores white space.  Paragraph tags are required to separate 
+paragraph elements. 
+
+
+*****************************************************************************************
+Section 2, Lecture 15: Void Elements (Self-Closing Tags)
+*****************************************************************************************
+
+<hr />
+
+Horizonal Rule
+
+Looks a bit like a closing tag, but it's not.  This is its own
+opening AND closing tag, and pay attention to the position 
+of the / (In the case of the Void Element, the / is AFTER the hr,
+not before it as in </hr>)
+
+<br /> 
+
+Break 
+
+Creates a line break WITHIN a single Paragraph that is intended
+to be a Single Paragraph
+    - Think addresses or poems.
+
+Don't CHEAT!  Use <p> for Paragraphs, and the <br /> for breaking
+lines WITHIN SINGLE PARAGRAPHS. It does make a difference for 
+readability in impaired accessible browsers!
+
